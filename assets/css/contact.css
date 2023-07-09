@@ -1,10 +1,12 @@
 .title-form{
     text-align: center;
     padding: 10px 20px 0px 20px;
+    
 }
 .title-form__contact{
-    border-bottom: 1px solid #ccc;
+  color: var(--main-brand-color);
 }
+
 .contact-form {
     padding: 20px;
   }
@@ -39,8 +41,24 @@
   
   .form-buttons {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 25px;
   }
+  .form-buttons__save, .form-buttons__reset{
+    border: 1px  solid var(--main-brand-color);
+    background: var(--main-brand-color);
+    color: var(--main-bg-color);
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition: ease-in-out all 0.55s;
+    transition: ease-in-out all 0.55s;
+    text-align: center;
+  }
+  .form-buttons__save:hover, .form-buttons__reset:hover {
+    border-color: #000;
+    background: #000;
+  }
+
   
   .form-buttons button {
     margin-right: 10px;
@@ -60,10 +78,16 @@
       display: flex;
       align-items: center;
     }
+    .radio {
+      display: block;
+    }
   
     label {
       flex-basis: 150px;
       margin-bottom: 0;
+    }
+    .form-group__label{
+      flex-basis: 200px;
     }
   
     input[type="text"],
