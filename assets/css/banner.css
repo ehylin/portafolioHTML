@@ -3,6 +3,9 @@
     position: relative;
     height: 75vh;
     background-color: var(--main-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .banner__image {
@@ -22,9 +25,7 @@
   .banner__content {
     position: relative;
     z-index: 1;
-    text-align: center;
     color: #fff;
-    padding: 20px;
   }
 
 
@@ -33,3 +34,4 @@
       background-image: url('../img/home-banner-2.jpeg');
     }
   }
+ 

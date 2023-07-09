@@ -39,4 +39,7 @@
     .header__nav__list__item {
       margin-right: 20px;
     }
+    .header__nav__list__item a:hover {
+        color: #b1aeae;
+      }
   }
