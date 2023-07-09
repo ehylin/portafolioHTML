@@ -1,0 +1,76 @@
+.title-form{
+    text-align: center;
+    padding: 10px 20px 0px 20px;
+}
+.title-form__contact{
+    border-bottom: 1px solid #ccc;
+}
+.contact-form {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .form-buttons {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .form-buttons button {
+    margin-right: 10px;
+  }
+  
+
+  @media screen and (min-width: 768px) {
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .title-form__contact{
+        border-bottom: none;
+    }
+  
+    .form-group {
+      display: flex;
+      align-items: center;
+    }
+  
+    label {
+      flex-basis: 150px;
+      margin-bottom: 0;
+    }
+  
+    input[type="text"],
+    input[type="tel"],
+    textarea {
+      flex-grow: 1;
+      margin-left: 10px;
+    }
+  }
+  
