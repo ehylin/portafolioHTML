@@ -1,0 +1,19 @@
+.page-error{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .page-error__title{
+    color: #e74c3c;
+  }
+
+  @media (min-width: 768px) {
+    .page-error {
+      max-width: 600px;
+      padding: 60px;
+    }
+  }
